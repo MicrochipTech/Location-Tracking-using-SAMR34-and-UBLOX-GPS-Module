@@ -35,8 +35,10 @@ For ease of debugging logs can be displayed. While connected to the PC using EDB
 **Note: **This Application example does not utilize the Assisted GPS features which enable better computation of GPS coordinates in indoor environments 
 
 ###Cayenne Application Server extracting GPS Application data from The Things Network
+
 ##Live Data
 ![](https://i.imgur.com/Gzxwscq.jpg)
+
 ##GPS Location
 ![](https://i.imgur.com/RtOreXK.jpg)
 
