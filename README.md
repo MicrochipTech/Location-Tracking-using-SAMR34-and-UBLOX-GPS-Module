@@ -33,7 +33,8 @@ This application of SAMR34 configures the GPS module (UBLOX LEA-6S) to send GPS 
 User can OTAA/ ABP join procedure. By default the demo is configured to communicate on NA915 Band. User can modify this Application to work for other regions like EU868, AU915, THAI923, JPN923, KR920, IND865 etc., To configure the demo parameters user needs to modify config_app.h
 For ease of debugging logs can be displayed. While connected to the PC using EDBG USB use a terminal emulator like TeraTerm. Find the com port on Terminal Emulator and use the following serial settings 9600 bps, 8 bits, no parity, 1 Stop bit, no flow control. After a successful programming and join to network, each reset on board or a power cycle, the application will restore its configuration due to the presence of a persistent data storage (PDS) unit active. After a reset/power cycle of board if the user wants to rejoin the network to avoid using PDS configuration user can enter any key on TeraTerm to rejoin the network and continue the demo.
 
-**Note:** This Application example does not utilize the Assisted GPS features which enable better computation of GPS coordinates in indoor environments 
+**Note:** This Application example does not utilize the Assisted GPS features which enable better computation of GPS coordinates in indoor environments
+The demo Application is not optimized for power consumption. 
 
 ### Cayenne Application Server extracting GPS Application data from The Things Network
 
