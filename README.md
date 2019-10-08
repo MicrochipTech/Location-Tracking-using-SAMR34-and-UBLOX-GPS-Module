@@ -15,15 +15,15 @@ This application has been tested on following boards:
 ### Setup
 ![](https://i.imgur.com/JWV0FNL.jpg)
 This application requires user to have the following setup
-•             Internet
-•             Gateway
-•             Network Server ([The Things Network](https://www.thethingsnetwork.org/ "The Things Network"))
-•             Application Server([Cayenne Mydevices](https://mydevices.com/cayenne/signin/ "Cayenne Mydevices"))
-•             ATSAMR34-XPRO
-•             mikroBUS Xplained Pro on EXT1 
-•             GPS click mounted on the mikroBUS Xplained Pro
-•             Micro USB
-•             PC
+• Internet
+• Gateway
+• Network Server ([The Things Network](https://www.thethingsnetwork.org/ "The Things Network"))
+• Application Server([Cayenne Mydevices](https://mydevices.com/cayenne/signin/ "Cayenne Mydevices"))
+• ATSAMR34-XPRO
+• mikroBUS Xplained Pro on EXT1 
+• GPS click mounted on the mikroBUS Xplained Pro
+• Micro USB
+• PC
 Connect the EDBG USB port of ATSAMR34-XPRO to PC using the micro usb and program the Application using [Atmel Studio 7](https://www.microchip.com/mplab/avr-support/atmel-studio-7 "Atmel Studio 7")
 
 ### Implementation Details
