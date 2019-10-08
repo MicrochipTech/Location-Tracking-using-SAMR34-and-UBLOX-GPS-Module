@@ -14,6 +14,7 @@ This application has been tested on following boards:
 
 ### Setup
 ![](https://i.imgur.com/JWV0FNL.jpg)
+
 This application requires user to have the following setup
 - Internet
 - Gateway
